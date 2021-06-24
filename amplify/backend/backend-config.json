@@ -1,0 +1,9 @@
+{
+  "function": {
+    "myfunction": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  }
+}
