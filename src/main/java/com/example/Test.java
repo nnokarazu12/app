@@ -23,7 +23,7 @@ public class Test implements RequestHandler<Map<String,String>, String>{
     String sourceImage = "S223-01-t10_01.png";
     //String key = event.get("source");
     
-    CompareFaces cf = new CompareFaces(bucket, sourceImage);
+    //CompareFaces cf = new CompareFaces(bucket, sourceImage);
     //response = gson.toJson(cf.getResults().toString());
     response = gson.toJson(event);
     return response;
